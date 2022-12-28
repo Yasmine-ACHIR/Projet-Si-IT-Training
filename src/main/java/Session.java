@@ -23,6 +23,8 @@ public class Session {
         this.formation.ajouterSession(this);
     }
 
+    // getters & setters
+
     public LocalDate getDate() {
         return date;
     }

@@ -10,6 +10,9 @@ public class Theme {
 
     private final List<Formation> formations = new ArrayList<>();
 
+    // getters & setters
+
+
     public void ajouterSousTheme(Theme theme) {
         this.sousThemes.add(theme);
         theme.parents.add(theme);
